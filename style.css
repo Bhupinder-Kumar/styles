@@ -1,4 +1,4 @@
-/* This is a Testing File for Webflow */
+/* This is a Testing CSS File for Webflow */
 *{margin: 0px;padding: 0px;box-sizing: border-box;-webkit-font-smoothing: antialiased;}
 .header-4{visibility: visible;opacity: 1;transition: all 0.3s;}
 .sticky{position: sticky;top: 0;box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 10%);}
@@ -14,3 +14,5 @@
 .mob-nav::-webkit-scrollbar-track{background: #ffffff;border-radius: 5px;}
 .tools_tab_container.w--current::before{content: "";position: absolute;bottom: -16px!important;left: 50%;transform: translateX(-50%);display: inline-block;border-right: 8px solid transparent;border-top: 15px solid #fb5f66;border-left: 8px solid transparent;height: auto;border-bottom: none;}
 .blog-link:hover .blog-img img{transform: scale(1.1);}
+/* ***********-------------************* */
+/*  10-06-2021 */

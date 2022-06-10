@@ -1,3 +1,5 @@
+// *******------**********
+// Js File for Webflow
 $(document).ready(function(){      
     $(".nav-header-dashboard-3").css("visibility", "hidden");
 

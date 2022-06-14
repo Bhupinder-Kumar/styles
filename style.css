@@ -1,5 +1,6 @@
 /* This is a Testing CSS File for Webflow */
 *{margin: 0px;padding: 0px;box-sizing: border-box;-webkit-font-smoothing: antialiased;}
+input.trial-input:focus{border-color:#fb5f66;}
 .header-4{visibility: visible;opacity: 1;transition: all 0.3s;}
 .sticky{position: sticky;top: 0;box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 10%);}
 .header-4.sticky{background: #fff;height: 75px;}

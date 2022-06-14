@@ -28,11 +28,9 @@ $(document).ready(function () {
 
     $(".video-link").click(function () {
         $(".dd-modal").css("display", "flex");
-        $("body").css("overflow", "hidden");
     });
     $(".dd-modal").click(function () {
         $(this).css("display", "none");
-        $("body").css("overflow", "auto");
     });
 });
 

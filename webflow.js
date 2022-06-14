@@ -32,6 +32,9 @@ $(document).ready(function () {
     $(".dd-modal").click(function () {
         $(this).css("display", "none");
     });
+    $(".modal-inner").html(`<iframe class="youtubeModel" loading="lazy" width="100%" height="450" src="https://www.youtube.com/embed/PmN_MY5kNrE?rel=0&enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>`);
 });
 
 var Webflow = Webflow || [];

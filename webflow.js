@@ -27,12 +27,24 @@ $(document).ready(function () {
     });
 
     $(".video-link").click(function () {
-        $(".dd-modal").css("display", "flex");
+        const view_vdo = $(".dd-modal").css("display", "flex");
+        if (view_vdo != true) {
+            $(".modal-inner").html(`<iframe class="youtubeModel" width="100%" height="450" src="https://www.youtube.com/embed/PmN_MY5kNrE?rel=0&enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0"
+             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+             allowfullscreen></iframe>`);
+        }
+        else {
+            $(".modal-inner").html(``);
+        }
     });
+
     $(".dd-modal").click(function () {
-        $(this).css("display", "none");
+        const remove_vdo = $(this).css("display", "none");
+        if (remove_vdo != true) {
+            $(".modal-inner").html(``);
+        }
     });
-    
+
 });
 
 var Webflow = Webflow || [];
